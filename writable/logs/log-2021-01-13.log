@@ -1,0 +1,9 @@
+CRITICAL - 2021-01-13 23:41:13 --> Invalid file: muebles/administrar.php
+#0 C:\xampp\htdocs\crudajaxv1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('muebles/adminis...')
+#1 C:\xampp\htdocs\crudajaxv1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('muebles/adminis...', Array, true)
+#2 C:\xampp\htdocs\crudajaxv1\app\Controllers\Home.php(11): view('muebles/adminis...')
+#3 C:\xampp\htdocs\crudajaxv1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->vistamuebles()
+#4 C:\xampp\htdocs\crudajaxv1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\crudajaxv1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\crudajaxv1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

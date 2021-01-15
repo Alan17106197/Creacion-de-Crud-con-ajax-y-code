@@ -1,0 +1,9 @@
+CRITICAL - 2021-01-11 16:09:14 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\canal\crudajaxv1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\canal\crudajaxv1\app\Models\HomePostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp\htdocs\canal\crudajaxv1\app\Controllers\HomePost.php(17): App\Models\HomePostModel->obtenerTodosLosUsuariosModel()
+#3 C:\xampp\htdocs\canal\crudajaxv1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\HomePost->obtenerTodosLosUsuarios()
+#4 C:\xampp\htdocs\canal\crudajaxv1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePost))
+#5 C:\xampp\htdocs\canal\crudajaxv1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\canal\crudajaxv1\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
